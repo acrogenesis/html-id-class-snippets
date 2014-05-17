@@ -1,0 +1,161 @@
+".text.html":
+  "Anchor#":
+    "prefix": "a#",
+    "body": "<a id=\"$1\" href=\"${2:#}\">$3</a>$0"
+  ,
+  "Anchor.":
+    "prefix": "a.",
+    "body": "<a class=\"$1\" href=\"${2:#}\">$3</a>$0"
+  ,
+  "Button#":
+    "prefix": "button#",
+    "body": "<button id=\"$1\" name=\"${2:button}\">$3/button>$0"
+  ,
+  "Button.":
+    "prefix": "button.",
+    "body": "<button class=\"$1\" name=\"${2:button}\">$3/button>$0"
+  ,
+  "Div#":
+    "prefix": "div#",
+    "body": "<div id=\"$1\">\n\t$2\n</div>$0"
+  ,
+  "Div,":
+    "prefix": "div.",
+    "body": "<div class=\"$1\">\n\t$2\n</div>$0"
+  ,
+  "Heading 1#":
+    "prefix": "h1#",
+    "body": "<h1 id=\"$1\">$2</h1>$0"
+  ,
+  "Heading 1.":
+    "prefix": "h1.",
+    "body": "<h1 class=\"$1\">$2</h1>$0"
+  ,
+  "Heading 2#":
+    "prefix": "h2#",
+    "body": "<h2 id=\"$1\">$2</h2>$0"
+  ,
+  "Heading 2.":
+    "prefix": "h2.",
+    "body": "<h2 class=\"$1\">$2</h2>$0"
+  ,
+  "Heading 3#":
+    "prefix": "h3#",
+    "body": "<h3 id=\"$1\">$2</h3>$0"
+  ,
+  "Heading 3.":
+    "prefix": "h3.",
+    "body": "<h3 class=\"$1\">$2</h3>$0"
+  ,
+  "Heading 4#":
+    "prefix": "h4#",
+    "body": "<h4 id=\"$1\">$2</h4>$0"
+  ,
+  "Heading 4.":
+    "prefix": "h4.",
+    "body": "<h4 class=\"$1\">$2</h4>$0"
+  ,
+  "Heading 5#":
+    "prefix": "h5#",
+    "body": "<h5 id=\"$1\">$2</h5>$0"
+  ,
+  "Heading 5.":
+    "prefix": "h5.",
+    "body": "<h5 class=\"$1\">$2</h5>$0"
+  ,
+  "Heading 6#":
+    "prefix": "h6#",
+    "body": "<h6 id=\"$1\">$2</h6>$0"
+  ,
+  "Heading 6.":
+    "prefix": "h6.",
+    "body": "<h6 class=\"$1\">$2</h6>$0"
+  ,
+  "Image#":
+    "prefix": "img#",
+    "body": "<img id=\"$1\" src=\"$2\" alt=\"$3\" />$0"
+  ,
+  "Image.":
+    "prefix": "img.",
+    "body": "<img class=\"$1\" src=\"$2\" alt=\"$3\" />$0"
+  ,
+  "Label#":
+    "prefix": "label#",
+    "body": "<label id=\"$1\" ${2:for=\"$3\"}></label>$0"
+  ,
+  "Label.":
+    "prefix": "label.",
+    "body": "<label class=\"$1\" ${2:for=\"$3\"}></label>$0"
+  ,
+  "List Item#":
+    "prefix": "li#",
+    "body": "<li id=\"$1\">$2</li>$0"
+  ,
+  "List Item.":
+    "prefix": "li.",
+    "body": "<li class=\"$1\">$2</li>$0"
+  ,
+  "Ordered List#":
+    "prefix": "ol#",
+    "body": "<ol id=\"$1\">\n\t$2\n</ol>"
+  ,
+  "Ordered List.":
+    "prefix": "ol.",
+    "body": "<ol id=\"$1\">\n\t$2\n</ol>"
+  ,
+  "Paragraph#":
+    "prefix": "p#",
+    "body": "<p id=\"$1\">\n\t$2\n</p>"
+  ,
+  "Paragraph.":
+    "prefix": "p.",
+    "body": "<p class=\"$1\">\n\t$2\n</p>"
+  ,
+  "Span#":
+    "prefix": "span#",
+    "body": "<span id=\"$1\">$2</span>$0"
+  ,
+  "Span.":
+    "prefix": "span.",
+    "body": "<span class=\"$1\">$2</span>$0"
+  ,
+  "Table#":
+    "prefix": "table#",
+    "body": "<table id=\"$1\">\n\t$2\n</table>"
+  ,
+  "Table.":
+    "prefix": "table.",
+    "body": "<table class=\"$1\">\n\t$2\n</table>"
+  ,
+  "Table Cell#":
+    "prefix": "td#",
+    "body": "<td id=\"$1\">\n\t$2\n</td>"
+  ,
+  "Table Cell.":
+    "prefix": "td.",
+    "body": "<td class=\"$1\">\n\t$2\n</td>"
+  ,
+  "Table Header Cell#":
+    "prefix": "th#",
+    "body": "<th id=\"$1\">\n\t$2\n</th>"
+  ,
+  "Table Header Cell.":
+    "prefix": "th.",
+    "body": "<th class=\"$1\">\n\t$2\n</th>"
+  ,
+  "Table Row#":
+    "prefix": "tr#",
+    "body": "<tr id=\"$1\">\n\t$2\n</tr>"
+  ,
+  "Table Row.":
+    "prefix": "tr.",
+    "body": "<tr class=\"$1\">\n\t$2\n</tr>"
+  ,
+  "Unordered List#":
+    "prefix": "ul#",
+    "body": "<ul id=\"$1\">\n\t$2\n</ul>"
+  ,
+  "Unordered List.":
+    "prefix": "ul.",
+    "body": "<ul id=\"$1\">\n\t$2\n</ul>"
+  ,
