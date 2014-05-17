@@ -1,0 +1,18 @@
+{
+  "name": "html-id-class-snippets",
+  "version": "0.1.0",
+  "description": "HTML language snippets with easy access to id and class",
+  "repository": "https://github.com/acrogenesis/html-id-class-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/acrogenesis/html-id-class-snippets",
+  "bugs": {
+    "url": "https://github.com/acrogenesis/html-id-class-snippets/issues"
+  },
+  "readme": "HTML language snippets with easy access to id and class\n",
+  "readmeFilename": "README.md"
+}
