@@ -1,7 +1,7 @@
 Html Id Class Snippets
 ======================
 
-Snippets with id="" and class="" for html
+HTML language snippets with easy access to id and class
 
 How to use
 ----------
@@ -12,7 +12,7 @@ How to use
 
 Example with div# and a.
 ------------------------
-![Image](html-id-class-snippets.gif)
+![](https://raw.githubusercontent.com/acrogenesis/html-id-class-snippets/master/html-id-class-snippets.gif)
 
 Contributing
 ------------
