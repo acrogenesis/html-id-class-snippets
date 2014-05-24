@@ -157,5 +157,5 @@
   ,
   "Unordered List.":
     "prefix": "ul.",
-    "body": "<ul id=\"$1\">\n\t$2\n</ul>"
+    "body": "<ul class=\"$1\">\n\t$2\n</ul>"
   ,
