@@ -101,7 +101,7 @@
   ,
   "Ordered List.":
     "prefix": "ol.",
-    "body": "<ol id=\"$1\">\n\t$2\n</ol>"
+    "body": "<ol class=\"$1\">\n\t$2\n</ol>"
   ,
   "Paragraph#":
     "prefix": "p#",
