@@ -7,6 +7,42 @@
     "prefix": "a.",
     "body": "<a class=\"$1\" href=\"${2:#}\">$3</a>$0"
   ,
+  "Abbreviation#":
+    "prefix": "abbr#",
+    "body": "<abbr id=\"$1\" title=\"$2\">$3</abbr>$0"
+  ,
+  "Abbreviation.":
+    "prefix": "abbr.",
+    "body": "<abbr class=\"$1\" title=\"$2\">$3</abbr>$0"
+  ,
+  "Area#":
+    "prefix": "area#",
+    "body": "<area id=\"$1\" ${2:shape=\"${3:default}\"} coords=\"$4\" ${5:href=\"${6:#}\"} />$0"
+  ,
+  "Area.":
+    "prefix": "area.",
+    "body": "<area class=\"$1\" ${2:shape=\"${3:default}\"} coords=\"$4\" ${5:href=\"${6:#}\"} />$0"
+  ,
+  "Article#":
+    "prefix": "article#",
+    "body": "<article id=\"$1\">\n\t$2\n</article>"
+  ,
+  "Aside#":
+    "prefix": "aside#",
+    "body": "<aside id=\"$1\">\n\t$2\n</aside>"
+  ,
+  "Aside.":
+    "prefix": "aside.",
+    "body": "<aside class=\"$1\">\n\t$2\n</aside>"
+  ,
+  "Audio#":
+    "prefix": "audio#",
+    "body": "<audio id=\"$1\" src=\"$2\">\n\t$3\n</audio>"
+  ,
+  "Audio.":
+    "prefix": "audio.",
+    "body": "<audio class=\"$1\" src=\"$2\">\n\t$3\n</audio>"
+  ,
   "Button#":
     "prefix": "button#",
     "body": "<button id=\"$1\" name=\"${2:button}\">$3/button>$0"
