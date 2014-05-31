@@ -43,6 +43,46 @@
     "prefix": "audio.",
     "body": "<audio class=\"$1\" src=\"$2\">\n\t$3\n</audio>"
   ,
+  "Bold#":
+    "prefix": "b#",
+    "body": "<b id=\"$1\">$2</b>$0"
+  ,
+  "Bold.":
+    "prefix": "b.",
+    "body": "<b class=\"$1\">$2</b>$0"
+  ,
+  "Base#":
+    "prefix": "base#",
+    "body": "<base id=\"$1\" href=\"${2:#}\" target=\"${3:_blank}\" />$0"
+  ,
+  "Base.":
+    "prefix": "base.",
+    "body": "<base class=\"$1\" href=\"${2:#}\" target=\"${3:_blank}\" />$0"
+  ,
+  "Bi-Directional Isolation#":
+    "prefix": "bdi#",
+    "body": "<bdi id=\"$1\" dir=\"${2:auto}\">$3</bdi>$0"
+  ,
+  "Bi-Directional Isolation.":
+    "prefix": "bdi.",
+    "body": "<bdi class=\"$1\" dir=\"${2:auto}\">$3</bdi>$0"
+  ,
+  "Bi-Directional Override#":
+    "prefix": "bdo#",
+    "body": "<bdo id=\"$1\" dir=\"${2:auto}\">$3</bdo>$0"
+  ,
+  "Bi-Directional Override.":
+    "prefix": "bdo.",
+    "body": "<bdo class=\"$1\" dir=\"${2:auto}\">$3</bdo>$0"
+  ,
+  "Blockquote#":
+    "prefix": "blockquote#",
+    "body": "<blockquote id=\"$1\" cite=\"${2:http://}\">\n\t$3\n</blockquote>"
+  ,
+  "Blockquote.":
+    "prefix": "blockquote.",
+    "body": "<blockquote class=\"$1\" cite=\"${2:http://}\">\n\t$3\n</blockquote>"
+  ,
   "Button#":
     "prefix": "button#",
     "body": "<button id=\"$1\" name=\"${2:button}\">$3/button>$0"
