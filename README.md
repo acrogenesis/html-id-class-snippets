@@ -12,7 +12,7 @@ How to use
 
 Example with div# and a.
 ------------------------
-![](https://raw.githubusercontent.com/acrogenesis/html-id-class-snippets/master/html-id-class-snippets.gif)
+![](http://intranet.bluehats.mx/html-id-class-snippets.gif)
 
 Contributing
 ------------
