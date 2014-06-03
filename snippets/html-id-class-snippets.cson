@@ -83,6 +83,14 @@
     "prefix": "blockquote.",
     "body": "<blockquote class=\"$1\" cite=\"${2:http://}\">\n\t$3\n</blockquote>"
   ,
+  "Line Breaker#":
+    "prefix": "br#",
+    "body": "<br id=\"$1\">$0"
+  ,
+  "Line Breaker.":
+    "prefix": "br.",
+    "body": "<br class=\"$1\">$0"
+  ,
   "Button#":
     "prefix": "button#",
     "body": "<button id=\"$1\" name=\"${2:button}\">$3/button>$0"
@@ -90,6 +98,38 @@
   "Button.":
     "prefix": "button.",
     "body": "<button class=\"$1\" name=\"${2:button}\">$3/button>$0"
+  ,
+  "Caption#":
+    "prefix": "caption#",
+    "body": "<caption id=\"$1\">$2</caption>$0"
+  ,
+  "Caption.":
+    "prefix": "caption.",
+    "body": "<caption class=\"$1\">$2</caption>$0"
+  ,
+  "Citation#":
+    "prefix": "cite#",
+    "body": "<cite id=\"$1\">$2</cite>$0"
+  ,
+  "Citation.":
+    "prefix": "cite.",
+    "body": "<cite class=\"$1\">$2</cite>$0"
+  ,
+  "Code#":
+    "prefix": "code#",
+    "body": "<code id=\"$1\">$2</code>$0"
+  ,
+  "Code.":
+    "prefix": "code.",
+    "body": "<code class=\"$1\">$2</code>$0"
+  ,
+  "Column#":
+    "prefix": "col#",
+    "body": "<col id=\"$1\">$2</col>$0"
+  ,
+  "Column.":
+    "prefix": "col.",
+    "body": "<col class=\"$1\">$2</col>$0"
   ,
   "Div#":
     "prefix": "div#",
