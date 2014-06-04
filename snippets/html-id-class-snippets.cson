@@ -131,6 +131,46 @@
     "prefix": "col.",
     "body": "<col class=\"$1\">$2</col>$0"
   ,
+  "Column Group#":
+    "prefix": "colgroup#",
+    "body": "<colgroup id=\"$1\">$2</colgroup>$0"
+  ,
+  "Column Group.":
+    "prefix": "colgroup.",
+    "body": "<colgroup class=\"$1\">$2</colgroup>$0"
+  ,
+  "Content#":
+    "prefix": "content#",
+    "body": "<content id=\"$1\" select=\"$2\">$3</content>$0"
+  ,
+  "Content.":
+    "prefix": "content.",
+    "body": "<content class=\"$1\" select=\"$2\">$3</content>$0"
+  ,
+  "Data#":
+    "prefix": "data#",
+    "body": "<data id=\"$1\" value=\"$2\">$3</data>$0"
+  ,
+  "Data.":
+    "prefix": "data.",
+    "body": "<data class=\"$1\" value=\"$2\">$3</data>$0"
+  ,
+  "Description#":
+    "prefix": "dd#",
+    "body": "<dd id=\"$1\">$2</dd>$0"
+  ,
+  "Description.":
+    "prefix": "dd.",
+    "body": "<dd class=\"$1\">$2</dd>$0"
+  ,
+  "Deleted Text#":
+    "prefix": "del#",
+    "body": "<del id=\"$1\">$2</del>$0"
+  ,
+  "Deleted Text.":
+    "prefix": "del.",
+    "body": "<del class=\"$1\">$2</del>$0"
+  ,
   "Div#":
     "prefix": "div#",
     "body": "<div id=\"$1\">\n\t$2\n</div>$0"
