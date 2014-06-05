@@ -171,6 +171,30 @@
     "prefix": "del.",
     "body": "<del class=\"$1\">$2</del>$0"
   ,
+  "Details#":
+    "prefix": "details#",
+    "body": "<details id=\"$1\" ${2:open}>$3</details>$0"
+  ,
+  "Details.":
+    "prefix": "details.",
+    "body": "<details class=\"$1\" ${2:open}>$3</details>$0"
+  ,
+  "Definition#":
+    "prefix": "dfn#",
+    "body": "<dfn id=\"$1\">$2</dfn>$0"
+  ,
+  "Definition.":
+    "prefix": "dfn.",
+    "body": "<dfn class=\"$1\">$2</dfn>$0"
+  ,
+  "Definition Term#":
+    "prefix": "dt#",
+    "body": "<dt id=\"$1\">$2</dt>$0"
+  ,
+  "Definition Term.":
+    "prefix": "dt.",
+    "body": "<dt class=\"$1\">$2</dt>$0"
+  ,
   "Div#":
     "prefix": "div#",
     "body": "<div id=\"$1\">\n\t$2\n</div>$0"
@@ -178,6 +202,14 @@
   "Div,":
     "prefix": "div.",
     "body": "<div class=\"$1\">\n\t$2\n</div>$0"
+  ,
+  "Emphasis#":
+    "prefix": "em#",
+    "body": "<em id=\"$1\">$2</em>$0"
+  ,
+  "Embed":
+    "prefix": "embed#",
+    "body": "<embed id=\"$1\" type=\"${2:video/quicktime}\" src=\"${3:#}\" width=\"${4:300}\" height=\"${5:300}\">$0"
   ,
   "Heading 1#":
     "prefix": "h1#",
