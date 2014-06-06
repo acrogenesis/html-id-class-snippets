@@ -207,9 +207,45 @@
     "prefix": "em#",
     "body": "<em id=\"$1\">$2</em>$0"
   ,
-  "Embed":
+  "Embed#":
     "prefix": "embed#",
     "body": "<embed id=\"$1\" type=\"${2:video/quicktime}\" src=\"${3:#}\" width=\"${4:300}\" height=\"${5:300}\">$0"
+  ,
+  "Embed.":
+    "prefix": "embed.",
+    "body": "<embed class=\"$1\" type=\"${2:video/quicktime}\" src=\"${3:#}\" width=\"${4:300}\" height=\"${5:300}\">$0"
+  ,
+  "Fieldset#":
+    "prefix": "fieldset#",
+    "body": "<fieldset id=\"$1\">$2</fieldset>$0"
+  ,
+  "Fieldset.":
+    "prefix": "fieldset.",
+    "body": "<fieldset class=\"$1\">$2</fieldset>$0"
+  ,
+  "Figure Caption#":
+    "prefix": "figcaption#",
+    "body": "<figcaption id=\"$1\">$2</figcaption>$0"
+  ,
+  "Figure Caption.":
+    "prefix": "figcaption#",
+    "body": "<figcaption class=\"$1\">$2</figcaption>$0"
+  ,
+  "Figure#":
+    "prefix": "figure#",
+    "body": "<figure id=\"$1\">$2</figure>$0"
+  ,
+  "Figure.":
+    "prefix": "figure.",
+    "body": "<figure class=\"$1\">$2</figure>$0"
+  ,
+  "Footer#":
+    "prefix": "footer#",
+    "body": "<footer id=\"$1\">$2</footer>$0"
+  ,
+  "Footer.":
+    "prefix": "footer.",
+    "body": "<footer class=\"$1\">$2</footer>$0"
   ,
   "Heading 1#":
     "prefix": "h1#",
