@@ -247,6 +247,14 @@
     "prefix": "footer.",
     "body": "<footer class=\"$1\">$2</footer>$0"
   ,
+  "Form#":
+    "prefix": "form#",
+    "body": "<form id=\"${1:form_id}\" action=\"${2:index.html}\" method=\"${3:post}\">\n\t$4\n</form>"
+  ,
+  "Form.":
+    "prefix": "form.",
+    "body": "<form id=\"${1:form_id}\" class=\"$2\" action=\"${3:index.html}\" method=\"${4:post}\">\n\t$5\n</form>"
+  ,
   "Heading 1#":
     "prefix": "h1#",
     "body": "<h1 id=\"$1\">$2</h1>$0"
@@ -294,6 +302,38 @@
   "Heading 6.":
     "prefix": "h6.",
     "body": "<h6 class=\"$1\">$2</h6>$0"
+  ,
+  "Head#":
+    "prefix": "head#",
+    "body": "<head id=\"$1\">\n\t$2\n</head>"
+  ,
+  "Head.":
+    "prefix": "head.",
+    "body": "<head class=\"$1\">\n\t$2\n</head>"
+  ,
+  "Header#":
+    "prefix": "header#",
+    "body": "<header id=\"$1\">\n\t$2\n</header>"
+  ,
+  "Header.":
+    "prefix": "header.",
+    "body": "<header class=\"$1\">\n\t$2\n</header>"
+  ,
+  "Horizontal Rule#":
+    "prefix": "hr#",
+    "body": "<hr id=\"$1\">$0"
+  ,
+  "Horizontal Rule.":
+    "prefix": "hr.",
+    "body": "<hr class=\"$1\">$0"
+  ,
+  "Italic#":
+    "prefix": "i#",
+    "body": "<i id=\"$1\">$2</i>$0"
+  ,
+  "Italic.":
+    "prefix": "i.",
+    "body": "<i class=\"$1\">$2</i>$0"
   ,
   "Image#":
     "prefix": "img#",
