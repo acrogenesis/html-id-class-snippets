@@ -335,6 +335,22 @@
     "prefix": "i.",
     "body": "<i class=\"$1\">$2</i>$0"
   ,
+  "Inline Frame#":
+    "prefix": "iframe#",
+    "body": "<iframe id=\"$1\" src=\"$2\" width=\"$3\" height=\"$4\">$5</iframe>$0"
+  ,
+  "Inline Frame.":
+    "prefix": "iframe.",
+    "body": "<iframe class=\"$1\" src=\"$2\" width=\"$3\" height=\"$4\">$5</iframe>$0"
+  ,
+  "Input#":
+    "prefix": "input#",
+    "body": "<input id=\"$1\" type=\"${2:button}\" name=\"${3:some_name}\" value=\"$4\">$0"
+  ,
+  "Input.":
+    "prefix": "input.",
+    "body": "<input class=\"$1\" type=\"${2:button}\" name=\"${3:some_name}\" value=\"$4\">$0"
+  ,
   "Image#":
     "prefix": "img#",
     "body": "<img id=\"$1\" src=\"$2\" alt=\"$3\" />$0"
@@ -342,6 +358,30 @@
   "Image.":
     "prefix": "img.",
     "body": "<img class=\"$1\" src=\"$2\" alt=\"$3\" />$0"
+  ,
+  "Inserted Text#":
+    "prefix": "ins#",
+    "body": "<ins id=\"$1\">$2</ins>$0"
+  ,
+  "Inserted Text.":
+    "prefix": "ins.",
+    "body": "<ins class=\"$1\">$2</ins>$0"
+  ,
+  "Keyboard Input#":
+    "prefix": "kbd#",
+    "body": "<kbd id=\"$1\">$2</kbd>$0"
+  ,
+  "Keyboard Input.":
+    "prefix": "kbd.",
+    "body": "<kbd class=\"$1\">$2</kbd>$0"
+  ,
+  "Keygen#":
+    "prefix": "keygen#",
+    "body": "<keygen id=\"$1\" name=\"${2:name}\" challenge=\"${3:string}\" keytype=\"${4:RSA}\" keyparams=\"${5:medium}\">$0"
+  ,
+  "Keygen.":
+    "prefix": "keygen.",
+    "body": "<keygen class=\"$1\" name=\"${2:name}\" challenge=\"${3:string}\" keytype=\"${4:RSA}\" keyparams=\"${5:medium}\">$0"
   ,
   "Label#":
     "prefix": "label#",
