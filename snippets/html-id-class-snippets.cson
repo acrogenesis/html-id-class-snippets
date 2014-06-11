@@ -391,6 +391,14 @@
     "prefix": "label.",
     "body": "<label class=\"$1\" ${2:for=\"$3\"}></label>$0"
   ,
+  "Legend#":
+      "prefix": "legend#",
+      "body": "<legend id=\"$1\">$2</legend>$0"
+  ,
+  "Legend.":
+      "prefix": "legend.",
+      "body": "<legend class=\"$1\">$2</legend>$0"
+  ,
   "List Item#":
     "prefix": "li#",
     "body": "<li id=\"$1\">$2</li>$0"
@@ -398,6 +406,46 @@
   "List Item.":
     "prefix": "li.",
     "body": "<li class=\"$1\">$2</li>$0"
+  ,
+  "Link#":
+    "prefix": "link#",
+    "body": "<link id=\"$1\" rel=\"${2:stylesheet}\" href=\"${3:/css/master.css}\" media=\"${4:screen}\" title=\"${5:no title}\" charset=\"${6:utf-8}\">$0"
+  ,
+  "Link.":
+    "prefix": "link.",
+    "body": "<link class=\"$1\" rel=\"${2:stylesheet}\" href=\"${3:/css/master.css}\" media=\"${4:screen}\" title=\"${5:no title}\" charset=\"${6:utf-8}\">$0"
+  ,
+  "Main#":
+    "prefix": "main#",
+    "body": "<main id=\"$1\">\n\t$2\n</main>"
+  ,
+  "Main.":
+    "prefix": "main.",
+    "body": "<main class=\"$1\">\n\t$2\n</main>"
+  ,
+  "Map#":
+    "prefix": "map#",
+    "body": "<map id=\"$1\">\n\t$2\n</map>"
+  ,
+  "Map.":
+    "prefix": "map.",
+    "body": "<map class=\"$1\">\n\t$2\n</map>"
+  ,
+  "Mark#":
+    "prefix": "mark#",
+    "body": "<mark id=\"$1\">$2</mark>$0"
+  ,
+  "Mark.":
+    "prefix": "mark.",
+    "body": "<mark class=\"$1\">$2</mark>$0"
+  ,
+  "Menu#":
+    "prefix": "menu#",
+    "body": "<menu id=\"$1\">\n\t$2\n</menu>"
+  ,
+  "Menu.":
+    "prefix": "menu.",
+    "body": "<menu class=\"$1\">\n\t$2\n</menu>"
   ,
   "Ordered List#":
     "prefix": "ol#",
