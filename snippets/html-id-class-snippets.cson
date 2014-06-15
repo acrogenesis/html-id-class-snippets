@@ -447,6 +447,46 @@
     "prefix": "menu.",
     "body": "<menu class=\"$1\">\n\t$2\n</menu>"
   ,
+  "Menu Item#":
+    "prefix": "menuitem#",
+    "body": "<menuitem id=\"$1\" type=\"${2:command}\" label=\"${3:Save}\">$0"
+  ,
+  "Menu Item,":
+    "prefix": "menuitem.",
+    "body": "<menuitem class=\"$1\" type=\"${2:command}\" label=\"${3:Save}\">$0"
+  ,
+  "Meter#":
+    "prefix": "meter#",
+    "body": "<meter id=\"$1\" min=\"${2:200}\" max=\"${3:500}\" value=\"${4:350}\">$0"
+  ,
+  "Meter.":
+    "prefix": "meter.",
+    "body": "<meter class=\"$1\" min=\"${2:200}\" max=\"${3:500}\" value=\"${4:350}\">$0"
+  ,
+  "Mail Anchor#":
+    "prefix": "mailto#",
+    "body": "<a id=\"$1\" href=\"mailto:${2:joe@example.com}?subject=${3:feedback}\">${4:email me}</a>$0"
+  ,
+  "Mail Anchor.":
+    "prefix": "mailto.",
+    "body": "<a class\"$1\" href=\"mailto:${2:joe@example.com}?subject=${3:feedback}\">${4:email me}</a>$0"
+  ,
+  "Meta#":
+    "prefix": "meta#",
+    "body": "<meta id=\"$1\" name=\"${2:name}\" content=\"${3:content}\">$0"
+  ,
+  "Meta.":
+    "prefix": "meta.",
+    "body": "<meta class=\"$1\" name=\"${2:name}\" content=\"${3:content}\">$0"
+  ,
+  "Navigation#":
+    "prefix": "nav#",
+    "body": "<nav id=\"$1\">\n\t$2\n</nav>"
+  ,
+  "Navigation.":
+    "prefix": "nav.",
+    "body": "<nav class=\"$1\">\n\t$2\n</nav>"
+  ,
   "Ordered List#":
     "prefix": "ol#",
     "body": "<ol id=\"$1\">\n\t$2\n</ol>"
