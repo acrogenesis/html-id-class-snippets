@@ -93,11 +93,11 @@
   ,
   "Button#":
     "prefix": "button#",
-    "body": "<button id=\"$1\" name=\"${2:button}\">$3/button>$0"
+    "body": "<button id=\"$1\" name=\"${2:button}\">$3</button>$0"
   ,
   "Button.":
     "prefix": "button.",
-    "body": "<button class=\"$1\" name=\"${2:button}\">$3/button>$0"
+    "body": "<button class=\"$1\" name=\"${2:button}\">$3</button>$0"
   ,
   "Caption#":
     "prefix": "caption#",
