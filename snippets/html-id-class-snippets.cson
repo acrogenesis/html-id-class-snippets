@@ -487,6 +487,22 @@
     "prefix": "nav.",
     "body": "<nav class=\"$1\">\n\t$2\n</nav>"
   ,
+  "Noscript#":
+    "prefix": "noscript#",
+    "body": "<noscript id=\"$1\">\n\t$2\n</noscript>"
+  ,
+  "Noscript.":
+    "prefix": "noscript.",
+    "body": "<noscript class=\"$1\">\n\t$2\n</noscript>"
+  ,
+  "Object#":
+    "prefix": "object#",
+    "body": "<object id=\"$1\" data=\"${2:http://}\" type=\"${3:mimetype}\">$4</object>$0"
+  ,
+  "Object.":
+    "prefix": "object.",
+    "body": "<object class=\"$1\" data=\"${2:http://}\" type=\"${3:mimetype}\">$4</object>$0"
+  ,
   "Ordered List#":
     "prefix": "ol#",
     "body": "<ol id=\"$1\">\n\t$2\n</ol>"
@@ -494,6 +510,30 @@
   "Ordered List.":
     "prefix": "ol.",
     "body": "<ol class=\"$1\">\n\t$2\n</ol>"
+  ,
+  "Option Group#":
+    "prefix": "optgroup#",
+    "body": "<optgroup id=\"$1\" label=\"${2:Group 1}\">\n\t$3\n</optgroup>"
+  ,
+  "Option Group.":
+    "prefix": "optgroup.",
+    "body": "<optgroup class=\"$1\" label=\"${2:Group 1}\">\n\t$3\n</optgroup>"
+  ,
+  "Option#":
+    "prefix": "opt#",
+    "body": "<option id=\"$1\"${2: value=\"${3:option}\"}>${4:option}</option>$0"
+  ,
+  "Option.":
+    "prefix": "opt.",
+    "body": "<option class=\"$1\"${2: value=\"${3:option}\"}>${4:option}</option>$0"
+  ,
+  "Output#":
+    "prefix": "output#",
+    "body": "<output id=\"$1\" name=\"${2:result}\">$3</output>$0"
+  ,
+  "Output.":
+    "prefix": "output.",
+    "body": "<output class=\"$1\" name=\"${2:result}\">$3</output>$0"
   ,
   "Paragraph#":
     "prefix": "p#",
