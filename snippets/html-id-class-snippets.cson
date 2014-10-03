@@ -392,12 +392,12 @@
     "body": "<label class=\"$1\" ${2:for=\"$3\"}></label>$0"
   ,
   "Legend#":
-      "prefix": "legend#",
-      "body": "<legend id=\"$1\">$2</legend>$0"
+    "prefix": "legend#",
+    "body": "<legend id=\"$1\">$2</legend>$0"
   ,
   "Legend.":
-      "prefix": "legend.",
-      "body": "<legend class=\"$1\">$2</legend>$0"
+    "prefix": "legend.",
+    "body": "<legend class=\"$1\">$2</legend>$0"
   ,
   "List Item#":
     "prefix": "li#",
