@@ -35,6 +35,14 @@
     "prefix": "aside.",
     "body": "<aside class=\"$1\">\n\t$2\n</aside>"
   ,
+  "Section#":
+    "prefix": "section#",
+    "body": "<section id=\"$1\">\n\t$2\n</section>"
+  ,
+  "Section.":
+    "prefix": "section.",
+    "body": "<section class=\"$1\">\n\t$2\n</section>"
+  ,
   "Audio#":
     "prefix": "audio#",
     "body": "<audio id=\"$1\" src=\"$2\">\n\t$3\n</audio>"
@@ -550,6 +558,14 @@
   "Span.":
     "prefix": "span.",
     "body": "<span class=\"$1\">$2</span>$0"
+  ,
+  "Small#":
+    "prefix": "small#",
+    "body": "<small id=\"$1\">$2</small>$0"
+  ,
+  "Small.":
+    "prefix": "small.",
+    "body": "<small class=\"$1\">$2</small>$0"
   ,
   "Table#":
     "prefix": "table#",
