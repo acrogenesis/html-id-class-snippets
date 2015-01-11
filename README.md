@@ -27,3 +27,5 @@ Contributing
 License
 ------------
 The MIT License (MIT)
+
+[1]: https://help.github.com/articles/creating-a-pull-request/
