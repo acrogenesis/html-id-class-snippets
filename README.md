@@ -27,3 +27,5 @@ Contributing
 License
 ------------
 The MIT License (MIT)
+
+[1]: https://github.com/acrogenesis/html-id-class-snippets/pulls
